@@ -42,7 +42,7 @@ fun FirstScreen(navigationToSecondScreen: (String) -> Unit) {
             navigationToSecondScreen(name.value)
         }) {
 
-            Text("Go to Second Screen")
+            Text("Go to Second Screen.")
 
         }
     }
